@@ -50,6 +50,6 @@ for char in Input:
         Output_list.append(encrypt_alphanumeric(char))
 
 
-# Zamienamy listę za stringa i pokazujemy wynik w konsoli:
+# Zamienamy listę na stringa i pokazujemy szyfrogram w konsoli:
 Output = ''.join(Output_list)
 print(Output)
